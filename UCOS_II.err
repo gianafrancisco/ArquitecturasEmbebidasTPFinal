@@ -1,0 +1,1 @@
+Warning[2064] C:\software_pic\ucos-ii\source\os_time.c 224 : static function 'OS_InitTaskStat' not defined

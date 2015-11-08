@@ -1,0 +1,1 @@
+Warning[2064] /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_time.c 49 : static function 'OS_InitTaskStat' not defined
