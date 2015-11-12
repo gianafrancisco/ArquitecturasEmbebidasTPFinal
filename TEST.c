@@ -6,6 +6,7 @@
 #include	<usart.h>
 #include	<adc.h>
 #include    <stdio.h>
+#include    <stdlib.h>
 
 typedef struct AdcMsg {
 	INT16S adc0;
@@ -13,14 +14,12 @@ typedef struct AdcMsg {
 	INT16S adc2;
 };
 
-#define txtSensorA	"Entradas: "
+//#define txtSensorA	"Entradas: "
 #define CRLF	"\r\n"
+#define SPACE	" "
 #define QSize	10
 #define MEMORY_BLOCK_NUM    15
 #define MEMORY_SIZE sizeof(struct AdcMsg)
-
-char CR = 0x0A;
-char LF = 0x0D;
 
 
 INT8S NumeroSensores = 3;
@@ -32,7 +31,6 @@ OS_EVENT *QueueADC0;
 
 OS_MEM *dMemory;
 INT8U   dMemoryData[MEMORY_BLOCK_NUM][MEMORY_SIZE];
-
 
 OS_STK	Start_TaskStk[100L];
 OS_STK	TaskSensoresStk[100L];
@@ -50,7 +48,7 @@ void TaskSensores(void *pdata)
 	INT8U err;
 	for(;;)
 	{
-        /*
+        
         m = (struct AdcMsg *) OSMemGet(dMemory,&err);
         if(err == OS_NO_ERR){
             OSSemPend(STeclado,0,&err);
@@ -66,21 +64,21 @@ void TaskSensores(void *pdata)
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    //m->adc2 = 1024;
+                    m->adc2 = value;
                 case 2:
                     Delay10TCYx(100);
                     SetChanADC(ADC_CH1);
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    //m->adc1 = 1024;                    
+                    m->adc1 = value;                    
                 case 1:
+                    Delay10TCYx(100);
                     SetChanADC(ADC_CH0);
-                    Delay10TCYx(10000);
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    //m->adc0 = 1024;
+                    m->adc0 = value;
                 default:
                     break;
             }
@@ -94,14 +92,7 @@ void TaskSensores(void *pdata)
             OSSemPost(STaskTxSerial);
         }
 		//OSSemPost(STask2);
-        */
-        SetChanADC(ADC_CH0);
-        ConvertADC();
-        //Delay10TCYx(10000);
-        while( BusyADC() );
-        value = ReadADC();
-
-		OSTimeDly(10);
+		OSTimeDly(1);
 	}
 }
 
@@ -120,7 +111,9 @@ void TaskTxSerial(void *pdata)
     INT16U  Acumulador3;
     INT8U contador;
     INT16U ValorTeclado;
-    INT8S strTx[20];
+    INT8S strTx1[5];
+    INT8S strTx2[5];
+    INT8S strTx3[5];
 	
 	for(;;)
 	{
@@ -134,7 +127,8 @@ void TaskTxSerial(void *pdata)
             Acumulador2+=Sensores->adc1;
             Acumulador3+=Sensores->adc2;
             OSMemPut(dMemory,Sensores);
-        }        
+        }
+
 		OSSemPend(STeclado,0,&err);
         ValorTeclado=NumeroSensores;
         OSSemPost(STeclado);
@@ -151,28 +145,35 @@ void TaskTxSerial(void *pdata)
 			default:
 				break;
 		}
-
+/*
+        itoa(Sensor1,strTx1);
+        putsUSART(strTx1);
+        putrsUSART(SPACE);
+        itoa(Sensor2,strTx2);
+        putsUSART(strTx2);
+        putrsUSART(SPACE);
+        itoa(Sensor3,strTx3);
+        putsUSART(strTx3);
+        putrsUSART(CRLF);
+ */
 		if(NumeroSensores > 0){
-			//putrsUSART(txtSensorA);
-			sprintf(strTx,"%d ",Sensor1);
-			putsUSART(strTx);
-			//Delay10TCYx( 10000 );
+            itoa(Sensor1,strTx1);
+            putsUSART(strTx1);
+            putrsUSART(SPACE);
 			if(NumeroSensores > 1){
-				sprintf(strTx,"%d ", Sensor2);
-				putsUSART(strTx);
-				//Delay10TCYx( 10000 );
+                itoa(Sensor2,strTx2);
+                putsUSART(strTx2);
+                putrsUSART(SPACE);
 			}
 			if(NumeroSensores > 2){
-				sprintf(strTx,"%d", Sensor3);
-				putsUSART(strTx);
-				//Delay10TCYx( 10000 );
+                itoa(Sensor3,strTx3);
+                putsUSART(strTx3);
 			}
 			putrsUSART(CRLF);
 		}
-		
 		//OSSemPost(STask1);
         
-		OSTimeDly(100);
+		OSTimeDly(10);
 	}
 }
 
@@ -214,8 +215,10 @@ void Task_START(void *pdata)
  				USART_ASYNCH_MODE &
  				USART_EIGHT_BIT &
  				USART_CONT_RX &
- 				USART_BRGH_LOW,
- 			12 );
+ 				//USART_BRGH_LOW,
+                USART_BRGH_HIGH,
+ 			51 );//12 - 9600 LOW
+                 //8 - 57.6k HIGH
 
 
 	OpenADC( ADC_FOSC_32 &
@@ -251,8 +254,8 @@ void Task_START(void *pdata)
 	QueueADC0 = OSQCreate((void *)QueueADC0Message,QSize);	
 
 	OSTaskCreate(TaskSensores, (void *)0, &TaskSensoresStk[0], 1);
-	//OSTaskCreate(TaskTxSerial, (void *)0, &TaskTxSerialStk[0], 5);
-	//OSTaskCreate(TaskTeclado, (void *)0, &TaskTecladoStk[0], 10);
+	OSTaskCreate(TaskTxSerial, (void *)0, &TaskTxSerialStk[0], 5);
+	OSTaskCreate(TaskTeclado, (void *)0, &TaskTecladoStk[0], 10);
 
 	//i_data = *((int *)pdata);
 

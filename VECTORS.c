@@ -39,6 +39,8 @@ void CPUInterruptHook(void)
         INTCONbits.TMR0IF = 0;                  // clear interrupt flag
         TMR0H = 0xD8;                           // set the timer to expire in 10 ms. (at 4MHz) Prescaler *2
         TMR0L = 0xA0;
+        //TMR0H = 0xF8;
+        //TMR0L = 0x2F;
 		// Valor calculado
         //TMR0H = 60;                           // set the timer to expire in 10 ms. (at 20MHz) prescaler *1
         //TMR0L = 176;
