@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Wed Nov 11 21:07:06 2015
+Linker Map File - Created Mon Nov 16 20:44:31 2015
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,66 +9,66 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
                 lowVector       code   0x000018    program   0x000006
                    .cinit    romdata   0x00002a    program   0x00000e
           .code_UCOS_II.o       code   0x000038    program   0x003840
-             .code_TEST.o       code   0x003878    program   0x00095c
-         .code_OS_CPU_C.o       code   0x0041d4    program   0x0004a4
-                   STDLIB       code   0x004678    program   0x000134
-       .romdata_UCOS_II.o    romdata   0x0047ac    program   0x000108
-               _cinit_scn       code   0x0048b4    program   0x00009e
-            .code_uopen.o       code   0x004952    program   0x00008a
-          .code_adcopen.o       code   0x0049dc    program   0x00006e
-           .code_uputrs.o       code   0x004a4a    program   0x000064
-                     PROG       code   0x004aae    program   0x00004c
-            .code_uputs.o       code   0x004afa    program   0x00004c
-           .code_t0open.o       code   0x004b46    program   0x000038
-           .code_uwrite.o       code   0x004b7e    program   0x00002e
-         .code_adcsetch.o       code   0x004bac    program   0x00002e
-         .code_fxd1616u.o       code   0x004bda    program   0x00002c
-                    .code       code   0x004c06    program   0x000020
-             _startup_scn       code   0x004c26    program   0x00001c
-              D10TCYXCODE       code   0x004c42    program   0x000016
-          .code_VECTORS.o       code   0x004c58    program   0x000014
-          .code_adcread.o       code   0x004c6c    program   0x000012
-          .code_adcbusy.o       code   0x004c7e    program   0x00000a
-             .stringtable    romdata   0x004c88    program   0x000005
-         .romdata_uputs.o    romdata   0x004c8d    program   0x000000
-       .romdata_adcopen.o    romdata   0x004c8d    program   0x000000
-         .idata_uputs.o_i    romdata   0x004c8d    program   0x000000
-        .idata_t0open.o_i    romdata   0x004c8d    program   0x000000
-        .romdata_t0open.o    romdata   0x004c8d    program   0x000000
-         .romdata_udefs.o    romdata   0x004c8d    program   0x000000
-         .idata_uopen.o_i    romdata   0x004c8d    program   0x000000
-         .romdata_uopen.o    romdata   0x004c8d    program   0x000000
-         .idata_udefs.o_i    romdata   0x004c8d    program   0x000000
-       .idata_adcread.o_i    romdata   0x004c8d    program   0x000000
-       .romdata_adcread.o    romdata   0x004c8d    program   0x000000
-      .idata_adcsetch.o_i    romdata   0x004c8d    program   0x000000
-      .romdata_adcsetch.o    romdata   0x004c8d    program   0x000000
-        .idata___init.o_i    romdata   0x004c8d    program   0x000000
-        .romdata___init.o    romdata   0x004c8d    program   0x000000
-        .romdata_uwrite.o    romdata   0x004c8d    program   0x000000
-        .idata_uputrs.o_i    romdata   0x004c8d    program   0x000000
-        .romdata_uputrs.o    romdata   0x004c8d    program   0x000000
-        .idata_uwrite.o_i    romdata   0x004c8d    program   0x000000
-         .idata_c018i.o_i    romdata   0x004c8d    program   0x000000
-         .romdata_c018i.o    romdata   0x004c8d    program   0x000000
-      .romdata_OS_CPU_C.o    romdata   0x004c8d    program   0x000000
-       .idata_VECTORS.o_i    romdata   0x004c8d    program   0x000000
-       .romdata_VECTORS.o    romdata   0x004c8d    program   0x000000
-       .idata_UCOS_II.o_i    romdata   0x004c8d    program   0x000000
-          .idata_TEST.o_i    romdata   0x004c8d    program   0x000001
-          .romdata_TEST.o    romdata   0x004c8d    program   0x000000
-       .idata_adcopen.o_i    romdata   0x004c8d    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x004c8d    program   0x000000
-      .idata_fxd1616u.o_i    romdata   0x004c8d    program   0x000000
-       .romdata_adcconv.o    romdata   0x004c8d    program   0x000000
-       .idata_adcconv.o_i    romdata   0x004c8d    program   0x000000
-       .romdata_adcbusy.o    romdata   0x004c8d    program   0x000000
-       .idata_adcbusy.o_i    romdata   0x004c8d    program   0x000000
-          .code_adcconv.o       code   0x004c8e    program   0x000004
-           .code___init.o       code   0x004c92    program   0x000002
-            .code_c018i.o       code   0x004c94    program   0x000000
-      .idata_OS_CPU_C.o_i    romdata   0x004c94    program   0x000000
-            .code_udefs.o       code   0x004c94    program   0x000000
+             .code_TEST.o       code   0x003878    program   0x000a00
+         .code_OS_CPU_C.o       code   0x004278    program   0x0004a4
+                   STDLIB       code   0x00471c    program   0x000134
+       .romdata_UCOS_II.o    romdata   0x004850    program   0x000108
+               _cinit_scn       code   0x004958    program   0x00009e
+            .code_uopen.o       code   0x0049f6    program   0x00008a
+          .code_adcopen.o       code   0x004a80    program   0x00006e
+           .code_uputrs.o       code   0x004aee    program   0x000064
+                     PROG       code   0x004b52    program   0x00004c
+            .code_uputs.o       code   0x004b9e    program   0x00004c
+           .code_t0open.o       code   0x004bea    program   0x000038
+           .code_uwrite.o       code   0x004c22    program   0x00002e
+         .code_adcsetch.o       code   0x004c50    program   0x00002e
+         .code_fxd1616u.o       code   0x004c7e    program   0x00002c
+                    .code       code   0x004caa    program   0x000020
+             _startup_scn       code   0x004cca    program   0x00001c
+              D10TCYXCODE       code   0x004ce6    program   0x000016
+          .code_VECTORS.o       code   0x004cfc    program   0x000014
+          .code_adcread.o       code   0x004d10    program   0x000012
+          .code_adcbusy.o       code   0x004d22    program   0x00000a
+             .stringtable    romdata   0x004d2c    program   0x000005
+         .romdata_uputs.o    romdata   0x004d31    program   0x000000
+       .romdata_adcopen.o    romdata   0x004d31    program   0x000000
+         .idata_uputs.o_i    romdata   0x004d31    program   0x000000
+        .idata_t0open.o_i    romdata   0x004d31    program   0x000000
+        .romdata_t0open.o    romdata   0x004d31    program   0x000000
+         .romdata_udefs.o    romdata   0x004d31    program   0x000000
+         .idata_uopen.o_i    romdata   0x004d31    program   0x000000
+         .romdata_uopen.o    romdata   0x004d31    program   0x000000
+         .idata_udefs.o_i    romdata   0x004d31    program   0x000000
+       .idata_adcread.o_i    romdata   0x004d31    program   0x000000
+       .romdata_adcread.o    romdata   0x004d31    program   0x000000
+      .idata_adcsetch.o_i    romdata   0x004d31    program   0x000000
+      .romdata_adcsetch.o    romdata   0x004d31    program   0x000000
+        .idata___init.o_i    romdata   0x004d31    program   0x000000
+        .romdata___init.o    romdata   0x004d31    program   0x000000
+        .romdata_uwrite.o    romdata   0x004d31    program   0x000000
+        .idata_uputrs.o_i    romdata   0x004d31    program   0x000000
+        .romdata_uputrs.o    romdata   0x004d31    program   0x000000
+        .idata_uwrite.o_i    romdata   0x004d31    program   0x000000
+         .idata_c018i.o_i    romdata   0x004d31    program   0x000000
+         .romdata_c018i.o    romdata   0x004d31    program   0x000000
+      .romdata_OS_CPU_C.o    romdata   0x004d31    program   0x000000
+       .idata_VECTORS.o_i    romdata   0x004d31    program   0x000000
+       .romdata_VECTORS.o    romdata   0x004d31    program   0x000000
+       .idata_UCOS_II.o_i    romdata   0x004d31    program   0x000000
+          .idata_TEST.o_i    romdata   0x004d31    program   0x000001
+          .romdata_TEST.o    romdata   0x004d31    program   0x000000
+       .idata_adcopen.o_i    romdata   0x004d31    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x004d31    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x004d31    program   0x000000
+       .romdata_adcconv.o    romdata   0x004d31    program   0x000000
+       .idata_adcconv.o_i    romdata   0x004d31    program   0x000000
+       .romdata_adcbusy.o    romdata   0x004d31    program   0x000000
+       .idata_adcbusy.o_i    romdata   0x004d31    program   0x000000
+          .code_adcconv.o       code   0x004d32    program   0x000004
+           .code___init.o       code   0x004d36    program   0x000002
+            .code_c018i.o       code   0x004d38    program   0x000000
+      .idata_OS_CPU_C.o_i    romdata   0x004d38    program   0x000000
+            .code_udefs.o       code   0x004d38    program   0x000000
     .config_300000_TEST.o    romdata   0x300000    program   0x000001
     .config_300001_TEST.o    romdata   0x300001    program   0x000001
     .config_300002_TEST.o    romdata   0x300002    program   0x000001
@@ -130,41 +130,41 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
                             0x000000    0x000005      
                             0x000008    0x00000d      
                             0x000018    0x00001d      
-                            0x00002a    0x004c93      
+                            0x00002a    0x004d37      
                             0x300000    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            19592 out of 33048 program addresses used, program memory utilization is 59%
+            19756 out of 33048 program addresses used, program memory utilization is 59%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                  BusyADC   0x004c7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-             CPUInterrupt   0x00453c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-         CPUInterruptHook   0x004c58    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/VECTORS.c
+                  BusyADC   0x004d22    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+             CPUInterrupt   0x0045e0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+         CPUInterruptHook   0x004cfc    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/VECTORS.c
             CPUhighVector   0x000008    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
              CPUlowVector   0x000018    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-               ConvertADC   0x004c8e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                    D10_1   0x004c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x004c4a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                   D1616S   0x004ad0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x004ade    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x004ada    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x004af0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x004ac0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-              Delay10TCYx   0x004c42    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                 FXD1616S   0x004aae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x004bda    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                  OSCtxSw   0x00446c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+               ConvertADC   0x004d32    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                    D10_1   0x004cf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x004cee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                   D1616S   0x004b74    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x004b82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x004b7e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x004b94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x004b64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+              Delay10TCYx   0x004ce6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                 FXD1616S   0x004b52    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x004c7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                  OSCtxSw   0x004510    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
                    OSInit   0x000038    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-          OSInitHookBegin   0x0043f4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSInitHookEnd   0x0043f6    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-               OSIntCtxSw   0x0045fe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+          OSInitHookBegin   0x004498    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSInitHookEnd   0x00449a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+               OSIntCtxSw   0x0046a2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
                OSIntEnter   0x00005e    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
                 OSIntExit   0x000082    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-                 OSMapTbl   0x0047ac    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
+                 OSMapTbl   0x004850    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
               OSMemCreate   0x0010a4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_mem.c
                  OSMemGet   0x0013d4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_mem.c
                  OSMemPut   0x00150c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_mem.c
@@ -185,19 +185,19 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
                 OSSemPost   0x0033a2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_sem.c
                OSSemQuery   0x0034a6    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_sem.c
                   OSStart   0x00018e    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-           OSStartHighRdy   0x0043f8    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSTCBInitHook   0x0043d6    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSStartHighRdy   0x00449c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSTCBInitHook   0x00447a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
              OSTaskCreate   0x003626    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_task.c
-         OSTaskCreateHook   0x004398    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSTaskDelHook   0x0043b4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSTaskIdleHook   0x0043f2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSTaskStatHook   0x0043d2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSTaskStkInit   0x0041d4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-             OSTaskSwHook   0x0043d0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+         OSTaskCreateHook   0x00443c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSTaskDelHook   0x004458    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSTaskIdleHook   0x004496    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSTaskStatHook   0x004476    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSTaskStkInit   0x004278    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+             OSTaskSwHook   0x004474    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
                 OSTimeDly   0x0037ce    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_time.c
                OSTimeTick   0x000270    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-           OSTimeTickHook   0x0043d4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-               OSUnMapTbl   0x0047b4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
+           OSTimeTickHook   0x004478    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+               OSUnMapTbl   0x004858    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
                 OSVersion   0x0003e4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
                OS_EventTO   0x00072e    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
           OS_EventTaskRdy   0x0003ee    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
@@ -213,59 +213,59 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
                  OS_Sched   0x000ba0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
                OS_TCBInit   0x000cfc    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
               OS_TaskIdle   0x000ca0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-                  OneByte   0x00479a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                  OpenADC   0x0049dc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-               OpenTimer0   0x004b46    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-                OpenUSART   0x004952    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
-                ProcLower   0x00474e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcUpper   0x004744    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                  ReadADC   0x004c6c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-               SetChanADC   0x004bac    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                  OneByte   0x00483e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                  OpenADC   0x004a80    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+               OpenTimer0   0x004bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+                OpenUSART   0x0049f6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
+                ProcLower   0x0047f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x0047e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                  ReadADC   0x004d10    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+               SetChanADC   0x004c50    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
              TaskSensores   0x003878    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-              TaskTeclado   0x003eec    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-             TaskTxSerial   0x003b1a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               Task_START   0x003fb0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-                 TstLower   0x004738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstUpper   0x004732    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-               WriteUSART   0x004b7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uwrite.c
-        _D10TCYXCODE_000A   0x004c4c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x004c4e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x004c50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-           ___do_lbl00014   0x004434    program     static                          
-           ___do_lbl00015   0x004438    program     static                          
-           ___do_lbl00016   0x004426    program     static                          
-           ___do_lbl00021   0x004504    program     static                          
-           ___do_lbl00022   0x004508    program     static                          
-           ___do_lbl00023   0x0044f6    program     static                          
-           ___do_lbl00031   0x0045c6    program     static                          
-           ___do_lbl00032   0x0045ca    program     static                          
-           ___do_lbl00033   0x0045b8    program     static                          
-           ___do_lbl00038   0x004640    program     static                          
-           ___do_lbl00039   0x004644    program     static                          
-           ___do_lbl00040   0x004632    program     static                          
-           ___if_lbl00013   0x004420    program     static                          
-           ___if_lbl00020   0x0044c2    program     static                          
-           ___if_lbl00029   0x004590    program     static                          
-           ___if_lbl00030   0x0045aa    program     static                          
-           ___if_lbl00037   0x00462c    program     static                          
+              TaskTeclado   0x003f90    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+             TaskTxSerial   0x003bbe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               Task_START   0x004054    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+                 TstLower   0x0047dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x0047d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+               WriteUSART   0x004c22    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uwrite.c
+        _D10TCYXCODE_000A   0x004cf0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x004cf2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x004cf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+           ___do_lbl00014   0x0044d8    program     static                          
+           ___do_lbl00015   0x0044dc    program     static                          
+           ___do_lbl00016   0x0044ca    program     static                          
+           ___do_lbl00021   0x0045a8    program     static                          
+           ___do_lbl00022   0x0045ac    program     static                          
+           ___do_lbl00023   0x00459a    program     static                          
+           ___do_lbl00031   0x00466a    program     static                          
+           ___do_lbl00032   0x00466e    program     static                          
+           ___do_lbl00033   0x00465c    program     static                          
+           ___do_lbl00038   0x0046e4    program     static                          
+           ___do_lbl00039   0x0046e8    program     static                          
+           ___do_lbl00040   0x0046d6    program     static                          
+           ___if_lbl00013   0x0044c4    program     static                          
+           ___if_lbl00020   0x004566    program     static                          
+           ___if_lbl00029   0x004634    program     static                          
+           ___if_lbl00030   0x00464e    program     static                          
+           ___if_lbl00037   0x0046d0    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x004c04    program     static                          
-       ___return_lbl00001   0x004c40    program     static                          
-       ___return_lbl00002   0x004950    program     static                          
-       ___return_lbl00010   0x00446a    program     static                          
-       ___return_lbl00017   0x00453a    program     static                          
+       ___return_lbl00000   0x004ca8    program     static                          
+       ___return_lbl00001   0x004ce4    program     static                          
+       ___return_lbl00002   0x0049f4    program     static                          
+       ___return_lbl00010   0x00450e    program     static                          
+       ___return_lbl00017   0x0045de    program     static                          
        ___return_lbl00024   0x00000c    program     static                          
        ___return_lbl00025   0x00001c    program     static                          
-       ___return_lbl00026   0x0045fc    program     static                          
-       ___return_lbl00034   0x004676    program     static                          
-        ___while_lbl00011   0x004410    program     static                          
-        ___while_lbl00012   0x00441a    program     static                          
-        ___while_lbl00018   0x0044a0    program     static                          
-        ___while_lbl00019   0x0044b8    program     static                          
-        ___while_lbl00027   0x00456e    program     static                          
-        ___while_lbl00028   0x004586    program     static                          
-        ___while_lbl00035   0x00461c    program     static                          
-        ___while_lbl00036   0x004626    program     static                          
+       ___return_lbl00026   0x0046a0    program     static                          
+       ___return_lbl00034   0x00471a    program     static                          
+        ___while_lbl00011   0x0044b4    program     static                          
+        ___while_lbl00012   0x0044be    program     static                          
+        ___while_lbl00018   0x004544    program     static                          
+        ___while_lbl00019   0x00455c    program     static                          
+        ___while_lbl00027   0x004612    program     static                          
+        ___while_lbl00028   0x00462a    program     static                          
+        ___while_lbl00035   0x0046c0    program     static                          
+        ___while_lbl00036   0x0046ca    program     static                          
                __config_0   0x300000    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
                __config_1   0x300001    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
               __config_10   0x30000c    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
@@ -278,39 +278,39 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
                __config_7   0x300009    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
                __config_8   0x30000a    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
                __config_9   0x30000b    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-                   __init   0x004c92    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-               __string_0   0x004c8b    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               __string_1   0x004c88    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-            __zero_memory   0x004c06    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                _do_cinit   0x0048b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                   __init   0x004d36    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+               __string_0   0x004d2f    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               __string_1   0x004d2c    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+            __zero_memory   0x004caa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                _do_cinit   0x004958    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                 _startup   0x004c26    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                compare_l   0x004c1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                copy_loop   0x004926    program     static                          
-            copy_one_byte   0x00492c    program     static                          
-                     done   0x004950    program     static                          
-             done_copying   0x00493a    program     static                          
-                  endloop   0x004c00    program     static                          
-                   itoBCD   0x004758    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                     itoa   0x004678    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo1   0x0046fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo2   0x0046fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo3   0x0046f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo4   0x0046f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo5   0x0046ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jEnd   0x004796    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                    jLoop   0x004770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                jTstLowZ1   0x004742    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstSign1   0x0046a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     loop   0x004c36    program     static                          
-                     loop   0x004be4    program     static                          
-                   loop_h   0x004c14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x004c1e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                     main   0x00415a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               putrsUSART   0x004a4a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputrs.c
-                putsUSART   0x004afa    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputs.c
-                     test   0x0048ce    program     static                          
-               zero_block   0x004c14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x004cca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                compare_l   0x004cc0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                copy_loop   0x0049ca    program     static                          
+            copy_one_byte   0x0049d0    program     static                          
+                     done   0x0049f4    program     static                          
+             done_copying   0x0049de    program     static                          
+                  endloop   0x004ca4    program     static                          
+                   itoBCD   0x0047fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                     itoa   0x00471c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo1   0x0047a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo2   0x00479e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo3   0x00479a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo4   0x004796    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo5   0x004792    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jEnd   0x00483a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                    jLoop   0x004814    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                jTstLowZ1   0x0047e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstSign1   0x004748    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     loop   0x004cda    program     static                          
+                     loop   0x004c88    program     static                          
+                   loop_h   0x004cb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x004cc2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                     main   0x0041fe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               putrsUSART   0x004aee    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputrs.c
+                putsUSART   0x004b9e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputs.c
+                     test   0x004972    program     static                          
+               zero_block   0x004cb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
@@ -684,116 +684,116 @@ Linker Map File - Created Wed Nov 11 21:07:06 2015
              OSTaskCreate   0x003626    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_task.c
                 OSTimeDly   0x0037ce    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/SOURCE/os_time.c
              TaskSensores   0x003878    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-             TaskTxSerial   0x003b1a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-              TaskTeclado   0x003eec    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               Task_START   0x003fb0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-                     main   0x00415a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-            OSTaskStkInit   0x0041d4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-         OSTaskCreateHook   0x004398    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSTaskDelHook   0x0043b4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-             OSTaskSwHook   0x0043d0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSTaskStatHook   0x0043d2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSTimeTickHook   0x0043d4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSTCBInitHook   0x0043d6    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSTaskIdleHook   0x0043f2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-          OSInitHookBegin   0x0043f4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-            OSInitHookEnd   0x0043f6    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-           OSStartHighRdy   0x0043f8    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-        ___while_lbl00011   0x004410    program     static                          
-        ___while_lbl00012   0x00441a    program     static                          
-           ___if_lbl00013   0x004420    program     static                          
-           ___do_lbl00016   0x004426    program     static                          
-           ___do_lbl00014   0x004434    program     static                          
-           ___do_lbl00015   0x004438    program     static                          
-       ___return_lbl00010   0x00446a    program     static                          
-                  OSCtxSw   0x00446c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-        ___while_lbl00018   0x0044a0    program     static                          
-        ___while_lbl00019   0x0044b8    program     static                          
-           ___if_lbl00020   0x0044c2    program     static                          
-           ___do_lbl00023   0x0044f6    program     static                          
-           ___do_lbl00021   0x004504    program     static                          
-           ___do_lbl00022   0x004508    program     static                          
-       ___return_lbl00017   0x00453a    program     static                          
-             CPUInterrupt   0x00453c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-        ___while_lbl00027   0x00456e    program     static                          
-        ___while_lbl00028   0x004586    program     static                          
-           ___if_lbl00029   0x004590    program     static                          
-           ___if_lbl00030   0x0045aa    program     static                          
-           ___do_lbl00033   0x0045b8    program     static                          
-           ___do_lbl00031   0x0045c6    program     static                          
-           ___do_lbl00032   0x0045ca    program     static                          
-       ___return_lbl00026   0x0045fc    program     static                          
-               OSIntCtxSw   0x0045fe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
-        ___while_lbl00035   0x00461c    program     static                          
-        ___while_lbl00036   0x004626    program     static                          
-           ___if_lbl00037   0x00462c    program     static                          
-           ___do_lbl00040   0x004632    program     static                          
-           ___do_lbl00038   0x004640    program     static                          
-           ___do_lbl00039   0x004644    program     static                          
-       ___return_lbl00034   0x004676    program     static                          
-                     itoa   0x004678    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstSign1   0x0046a4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo5   0x0046ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo4   0x0046f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo3   0x0046f6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo2   0x0046fa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                     jDo1   0x0046fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstUpper   0x004732    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                 TstLower   0x004738    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                jTstLowZ1   0x004742    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcUpper   0x004744    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                ProcLower   0x00474e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
-                   itoBCD   0x004758    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                    jLoop   0x004770    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                     jEnd   0x004796    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                  OneByte   0x00479a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
-                 OSMapTbl   0x0047ac    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-               OSUnMapTbl   0x0047b4    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
-                _do_cinit   0x0048b4    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x0048ce    program     static                          
-                copy_loop   0x004926    program     static                          
-            copy_one_byte   0x00492c    program     static                          
-             done_copying   0x00493a    program     static                          
-                     done   0x004950    program     static                          
-       ___return_lbl00002   0x004950    program     static                          
-                OpenUSART   0x004952    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
-                  OpenADC   0x0049dc    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
-               putrsUSART   0x004a4a    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputrs.c
-                 FXD1616S   0x004aae    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x004ac0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x004ad0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x004ada    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x004ade    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x004af0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                putsUSART   0x004afa    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputs.c
-               OpenTimer0   0x004b46    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
-               WriteUSART   0x004b7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uwrite.c
-               SetChanADC   0x004bac    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
-                 FXD1616U   0x004bda    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x004be4    program     static                          
-                  endloop   0x004c00    program     static                          
-       ___return_lbl00000   0x004c04    program     static                          
-            __zero_memory   0x004c06    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_h   0x004c14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-               zero_block   0x004c14    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                compare_l   0x004c1c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                   loop_l   0x004c1e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
-                 _startup   0x004c26    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x004c36    program     static                          
-       ___return_lbl00001   0x004c40    program     static                          
-              Delay10TCYx   0x004c42    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                     D10x   0x004c4a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000A   0x004c4c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000C   0x004c4e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-        _D10TCYXCODE_000E   0x004c50    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-                    D10_1   0x004c52    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
-         CPUInterruptHook   0x004c58    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/VECTORS.c
-                  ReadADC   0x004c6c    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
-                  BusyADC   0x004c7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
-               __string_1   0x004c88    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               __string_0   0x004c8b    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
-               ConvertADC   0x004c8e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
-                   __init   0x004c92    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
+             TaskTxSerial   0x003bbe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+              TaskTeclado   0x003f90    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               Task_START   0x004054    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+                     main   0x0041fe    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+            OSTaskStkInit   0x004278    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+         OSTaskCreateHook   0x00443c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSTaskDelHook   0x004458    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+             OSTaskSwHook   0x004474    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSTaskStatHook   0x004476    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSTimeTickHook   0x004478    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSTCBInitHook   0x00447a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSTaskIdleHook   0x004496    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+          OSInitHookBegin   0x004498    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+            OSInitHookEnd   0x00449a    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+           OSStartHighRdy   0x00449c    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+        ___while_lbl00011   0x0044b4    program     static                          
+        ___while_lbl00012   0x0044be    program     static                          
+           ___if_lbl00013   0x0044c4    program     static                          
+           ___do_lbl00016   0x0044ca    program     static                          
+           ___do_lbl00014   0x0044d8    program     static                          
+           ___do_lbl00015   0x0044dc    program     static                          
+       ___return_lbl00010   0x00450e    program     static                          
+                  OSCtxSw   0x004510    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+        ___while_lbl00018   0x004544    program     static                          
+        ___while_lbl00019   0x00455c    program     static                          
+           ___if_lbl00020   0x004566    program     static                          
+           ___do_lbl00023   0x00459a    program     static                          
+           ___do_lbl00021   0x0045a8    program     static                          
+           ___do_lbl00022   0x0045ac    program     static                          
+       ___return_lbl00017   0x0045de    program     static                          
+             CPUInterrupt   0x0045e0    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+        ___while_lbl00027   0x004612    program     static                          
+        ___while_lbl00028   0x00462a    program     static                          
+           ___if_lbl00029   0x004634    program     static                          
+           ___if_lbl00030   0x00464e    program     static                          
+           ___do_lbl00033   0x00465c    program     static                          
+           ___do_lbl00031   0x00466a    program     static                          
+           ___do_lbl00032   0x00466e    program     static                          
+       ___return_lbl00026   0x0046a0    program     static                          
+               OSIntCtxSw   0x0046a2    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/OS_CPU_C.c
+        ___while_lbl00035   0x0046c0    program     static                          
+        ___while_lbl00036   0x0046ca    program     static                          
+           ___if_lbl00037   0x0046d0    program     static                          
+           ___do_lbl00040   0x0046d6    program     static                          
+           ___do_lbl00038   0x0046e4    program     static                          
+           ___do_lbl00039   0x0046e8    program     static                          
+       ___return_lbl00034   0x00471a    program     static                          
+                     itoa   0x00471c    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstSign1   0x004748    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo5   0x004792    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo4   0x004796    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo3   0x00479a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo2   0x00479e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                     jDo1   0x0047a2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstUpper   0x0047d6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                 TstLower   0x0047dc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                jTstLowZ1   0x0047e6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcUpper   0x0047e8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                ProcLower   0x0047f2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itoa.asm
+                   itoBCD   0x0047fc    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                    jLoop   0x004814    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                     jEnd   0x00483a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                  OneByte   0x00483e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\itobcd.asm
+                 OSMapTbl   0x004850    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
+               OSUnMapTbl   0x004858    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/os_core.c
+                _do_cinit   0x004958    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x004972    program     static                          
+                copy_loop   0x0049ca    program     static                          
+            copy_one_byte   0x0049d0    program     static                          
+             done_copying   0x0049de    program     static                          
+                     done   0x0049f4    program     static                          
+       ___return_lbl00002   0x0049f4    program     static                          
+                OpenUSART   0x0049f6    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uopen.c
+                  OpenADC   0x004a80    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcopen.c
+               putrsUSART   0x004aee    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputrs.c
+                 FXD1616S   0x004b52    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x004b64    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x004b74    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x004b7e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x004b82    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x004b94    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                putsUSART   0x004b9e    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uputs.c
+               OpenTimer0   0x004bea    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\Timers\t0open.c
+               WriteUSART   0x004c22    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\USART\uwrite.c
+               SetChanADC   0x004c50    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcsetch.c
+                 FXD1616U   0x004c7e    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x004c88    program     static                          
+                  endloop   0x004ca4    program     static                          
+       ___return_lbl00000   0x004ca8    program     static                          
+            __zero_memory   0x004caa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_h   0x004cb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+               zero_block   0x004cb8    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                compare_l   0x004cc0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                   loop_l   0x004cc2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4550.asm
+                 _startup   0x004cca    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x004cda    program     static                          
+       ___return_lbl00001   0x004ce4    program     static                          
+              Delay10TCYx   0x004ce6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                     D10x   0x004cee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000A   0x004cf0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000C   0x004cf2    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+        _D10TCYXCODE_000E   0x004cf4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+                    D10_1   0x004cf6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\delays\d10tcyx.asm
+         CPUInterruptHook   0x004cfc    program     extern /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/VECTORS.c
+                  ReadADC   0x004d10    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcread.c
+                  BusyADC   0x004d22    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcbusy.c
+               __string_1   0x004d2c    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               __string_0   0x004d2f    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
+               ConvertADC   0x004d32    program     extern E:\3.46\pic18-lt\cxx-framework\src\pmc_common\ADC\adcconv.c
+                   __init   0x004d36    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
                __config_0   0x300000    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
                __config_1   0x300001    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c
                __config_2   0x300002    program     static /home/francisco/SOFTWARE_PIC/uCOS-II/PIC18/Practico_4x/TEST.c

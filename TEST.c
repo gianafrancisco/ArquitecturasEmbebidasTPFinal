@@ -20,6 +20,7 @@ typedef struct AdcMsg {
 #define QSize	10
 #define MEMORY_BLOCK_NUM    15
 #define MEMORY_SIZE sizeof(struct AdcMsg)
+#define Temp(value) ((int)((value*48)/10))
 
 
 INT8S NumeroSensores = 3;
@@ -64,21 +65,21 @@ void TaskSensores(void *pdata)
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    m->adc2 = value;
+                    m->adc2 = Temp(value);
                 case 2:
                     Delay10TCYx(100);
                     SetChanADC(ADC_CH1);
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    m->adc1 = value;                    
+                    m->adc1 = Temp(value);                    
                 case 1:
                     Delay10TCYx(100);
                     SetChanADC(ADC_CH0);
                     ConvertADC();
                     while( BusyADC() );
                     value = ReadADC();
-                    m->adc0 = value;
+                    m->adc0 = Temp(value);
                 default:
                     break;
             }
@@ -200,7 +201,7 @@ void TaskTeclado(void *pdata)
 			}
 			OSSemPost(STeclado);
 		}
-		OSTimeDly(100);
+		OSTimeDly(50);
 	}
 }
 //---------------------------------------------------------------------------------
